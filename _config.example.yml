@@ -35,10 +35,14 @@ disqus:
   shortname: name    #your name
   # count: true
 
+#User Profiles
+profile:
+  twitter:
+  google_plus:
+  github:
+
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
-google_plus:
 fb_admins:
 fb_app_id:

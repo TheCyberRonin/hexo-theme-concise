@@ -12,6 +12,7 @@ author:
   name: Sanonz
   work: Web Developer &amp; Designer
   location: Shenzhen, China
+  gravatar: #email for gravatar
 # widgets:
 # - category
 # - tag
@@ -38,7 +39,6 @@ disqus:
 #User Profiles
 profile:
   twitter:
-  google_plus:
   github:
 
 # Miscellaneous

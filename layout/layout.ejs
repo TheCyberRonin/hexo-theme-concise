@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= site.language %>">
+<html lang="<%= config.language %>">
 <head>
     <meta charset="UTF-8" />
 
@@ -33,8 +33,8 @@
     <meta name="description" content="<%= description %>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <meta name="baidu-site-verification" content="F0CXvmUgA9" />
-
+    <%- open_graph() %>
+    
     <% if( theme.rss ) { %>
     <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
     <% } %>
